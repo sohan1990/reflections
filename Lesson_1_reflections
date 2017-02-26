@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Assumng that the old file was bug free, the bug can only have been introduced while making changes or additions. The additions and changes will show up in the new file as differences between the two files while making comparisons. This helps us focus on the changed parts to narrow down our search for the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It helps us keep track of the changes as well as the time of the changes. It also lets us revert those changes if the need arises.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing when to commit gives the user the freedom and discretion to commit when he feels that an understandable and complete logical change has been made. The con is obviously the fact that the commit has to be made manually, and if the user forgets to do that, the change is not commited.
+    Automatic commit helps with teh forgetfulness, but it lacks the judgement of when is a good time to save a change based on the completion of a logical change.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is generally used for version control of codes. Such files are generally linked to each other and are stored in repositories. Thus it would make sense to save multiple files in one commit, rather than each individual files, so that when we want to go back to a specific point of time in the code we also get back to the same status of the other linked files at that point of time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log gives a list of the commits made.
+    git diff compares two files and shows the lines added and the lines removed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    We will not be worried about making changes, because we know we can always revert back to a working point in case an error occurs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To version control my project codes.
