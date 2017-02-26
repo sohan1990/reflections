@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Staging area is a place between the working directory and the repository. This is the place where files are added to from the working directory before sending them or adding them to the repository.
+Staging area is a place between the working directory and the repository. This is the place where files are added, from the working directory, before sending them or adding them to the repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
